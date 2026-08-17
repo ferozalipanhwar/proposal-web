@@ -1,0 +1,4 @@
+.wrap{position:fixed;left:20px;top:20px;background:rgba(255,255,255,0.02);padding:8px 12px;border-radius:8px;font-weight:600}
+.num{color:var(--warm-white);margin-right:6px}
+.sep{color:rgba(255,255,255,0.4);margin-right:6px}
+.total{color:rgba(255,255,255,0.6)}

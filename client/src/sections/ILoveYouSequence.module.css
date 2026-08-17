@@ -1,0 +1,8 @@
+.section{min-height:90vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--bg-1),#07060a);padding:80px 20px}
+.sequence{display:flex;gap:18px;align-items:center;justify-content:center}
+.sequence h1{font-family:serif;font-size:64px;margin:0;color:var(--warm-white);opacity:0;animation:appear 3s forwards}
+.i{animation-delay:.6s}
+.love{animation-delay:1.6s}
+.you{animation-delay:2.6s}
+.caption{margin-top:24px;max-width:720px;text-align:center;color:rgba(246,243,238,0.85)}
+@keyframes appear{from{opacity:0;filter:blur(6px);transform:scale(.96)}to{opacity:1;filter:blur(0);transform:scale(1)}}

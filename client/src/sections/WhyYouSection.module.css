@@ -1,0 +1,5 @@
+.section{min-height:70vh;padding:90px 20px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:linear-gradient(180deg,var(--bg-3),var(--bg-1))}
+.title{font-family:serif;font-size:clamp(2.1rem, 4vw, 3.5rem);margin-bottom:30px;text-align:center}
+.list{display:flex;flex-direction:column;gap:18px;align-items:center;width:min(880px, 100%)}
+.point{width:100%;padding:18px 24px;border-radius:14px;background:rgba(255,255,255,0.02);box-shadow:inset 0 0 40px rgba(255,255,255,0.02);transition:transform .28s ease,box-shadow .28s ease;cursor:pointer;font-size:clamp(1.05rem, 2vw, 1.45rem);text-align:center;line-height:1.7}
+.point:hover,.point:focus{transform:translateY(-6px) scale(1.02);box-shadow:0 8px 30px rgba(180,59,92,0.12)}

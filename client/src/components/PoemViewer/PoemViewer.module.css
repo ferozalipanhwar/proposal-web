@@ -1,0 +1,19 @@
+.overlay{position:fixed;inset:0;background:rgba(3,2,6,0.75);display:flex;align-items:center;justify-content:center;z-index:60;padding:24px}
+.container{max-width:900px;width:100%;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));padding:28px;border-radius:12px;position:relative}
+.close{position:absolute;right:12px;top:12px;border:none;background:transparent;color:var(--warm-white);font-size:20px;cursor:pointer}
+.header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.content{max-height:80vh;overflow:auto;padding-right:12px}
+.title{font-family:serif;font-size:32px;margin:0 0 6px}
+.pager{display:flex;align-items:center;gap:10px}
+.navBtn{padding:6px 10px;border-radius:8px;border:none;background:rgba(255,255,255,0.02);color:var(--warm-white);cursor:pointer}
+.navBtn[disabled]{opacity:0.35;cursor:not-allowed}
+.pageIndicator{font-weight:600;color:rgba(255,255,255,0.7)}
+.pageView{min-height:220px}
+.line{font-size:20px;color:rgba(246,243,238,0.97);margin:0 0 12px;line-height:1.6}
+
+@media (max-width:600px){
+  .container{padding:18px}
+  .title{font-size:20px}
+  .line{font-size:16px}
+}
+

@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "love-proposal-client": "file:.."
+  }
+}

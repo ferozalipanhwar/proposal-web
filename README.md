@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # To The Girl Who Became My Favorite Chapter — Project
 
 Premium cinematic romantic proposal website (MERN + Vite).
@@ -35,3 +36,6 @@ Notes
 - The frontend connects to API under the same origin during development via Vite proxy (or adjust `CLIENT_URL`).
 - Admin credentials are seeded; change `SEED_ADMIN_PASSWORD` in `.env` before seeding for production.
 - Many cinematic animations and assets are scaffolded as components; you should replace placeholder texts and refine animations and assets (audio, images) to personalize the experience.
+=======
+# proposal-web
+>>>>>>> d2e82c3904d036b84d254cc685b649ce29b3fcfa
